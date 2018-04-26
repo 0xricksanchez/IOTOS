@@ -28,7 +28,7 @@ sudo pip3 install --upgrade pip
 
 mkdir GIT && cd GIT
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-git clone https://github.com/fkie-cad/FACT_core.git && ./FACT_core/install.py
+git clone https://github.com/fkie-cad/FACT_core.git && sudo cp install.py FACT_core/ && ./FACT_core/install.py
 git clone https://github.com/devttys0/baudrate.git
 git clone https://github.com/JonathanSalwan/ROPgadget.git && sudo python3 ROPgadget/setup.py install
 git clone https://github.com/radare/radare2.git && ./radare2/sys/install.sh

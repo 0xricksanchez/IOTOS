@@ -25,4 +25,7 @@ The following tools are getting installed along the way:
 * [binwalk](https://github.com/ReFirmLabs/binwalk)  
 * [ScanaStudio](https://cdn.ikalogic.com/dist/scanastudio/)
 
-This list is variable and might change in the future!  
+This list is variable and might change in the future! 
+
+> Note: For FACT to correctly install on Ubuntu >= 17.04 clone this repo so it uses the custom install.py from here! For other debian based OS the install.py needs to get extended, since it's checking distro code names.  
+
