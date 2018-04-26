@@ -8,7 +8,10 @@ echo "██║╚██████╔╝   ██║██╗╚████�
 echo "╚═╝ ╚═════╝    ╚═╝╚═╝ ╚═════╝ ╚══════╝"
 
 
-LIST_OF_APPS="minicom binwalk git python-pip python3-pip python3 python3-dev build-essential automake autoconf libtool git unzip python-dev texinfo make pkg-config wireshark zsh curl wget zlib1g-dev liblzma-dev python-magic tcpdump dig gdb gdb-multiarch unrar libssl-dev libx32gcc-4.8-dev libc6-dev-i386 binutils-arm-linux-gnueabi libc6-arm-cross binutils-arm-linux-gnueabi libffi-dev libc6-powerpc-cross libc6-mipsel-cross binutils-powerpc-linux-gnu nohup screen"
+LIST_OF_APPS="minicom binwalk git python-pip python3-pip python3 python3-dev build-essential automake autoconf libtool \
+    git unzip python-dev texinfo make pkg-config wireshark zsh curl wget zlib1g-dev liblzma-dev python-magic tcpdump \
+    dig gdb gdb-multiarch unrar libssl-dev libx32gcc-4.8-dev libc6-dev-i386 binutils-arm-linux-gnueabi libc6-arm-cross \
+    binutils-arm-linux-gnueabi libffi-dev libc6-powerpc-cross libc6-mipsel-cross binutils-powerpc-linux-gnu nohup screen"
 PYTHON3_MODULES="scapy capstone keystone-engine unicorn ropper retdec-python sqlite3 twitter"
 PYTHON2_MODULES="angr capstone unicorn keystone-engine ropper sqlite3 twitter retdec-python"
 
