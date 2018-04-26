@@ -5,7 +5,7 @@ Initially this script was targeted at setting up the OS for IOT debugging & expl
 The following tools are getting installed along the way:
 
 * Fully updated system including cross compiling capabilities for mips/arm/ppc and a python2/3 environment.  
-* [https://github.com/Gallopsled/pwntools](pwntools)  
+* [pwntools](https://github.com/Gallopsled/pwntools)  
 * [ZShell](https://www.zsh.org/)  
 * [oh-my-zsh](http://ohmyz.sh/)  
 * [FACT](https://github.com/fkie-cad/FACT_core)  
