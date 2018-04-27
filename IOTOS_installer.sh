@@ -42,6 +42,7 @@ git clone https://github.com/radare/radare2.git && ./radare2/sys/install.sh
 git clone --recurse-submodules https://github.com/radareorg/cutter && cd cutter && ./build.sh && cd ..
 git clone https://git.code.sf.net/p/openocd/code openocd-code && cd openocd-code && ./bootstrap && ./configure && make && make install && cd ..
 git clone https://github.com/rampageX/firmware-mod-kit.git
+git clone https://github.com/jondonas/linux-exploit-suggester-2.git les2
 git clone https://github.com/eblot/pyspiflash.git py_SPIFlash
 git clone https://github.com/pwndbg/pwndbg.git && cd pwndbg && ./setup.sh
 wget https://out7.hex-rays.com/files/idafree70_linux.run && chmod +x idafree70_linux.run && ./idafree70_linux.run..
@@ -69,13 +70,15 @@ echo "alias rCutter='~/GIT/cutter/build/Cutter'" >> ~/.zshrc
 echo "alias pycharm='~/pycharm-2018.1.2/bin/pycharm.sh'" >> ~/.zshrc
 echo "alias scana='~/Ikalogic/ScanaStudio/ScanaStudio'" >> ~/.zshrc
 echo "alias ida='~/idafree-7.0/ida64'" >> ~/.zshrc
+echo "alias les='perl ~/GIT/les2/linux-exploit-suggester-2.pl'"
 echo "source ~/.zshrc"
 echo "-----------------------------------------------"
 echo "The following aliases were added to the .zshrc"
-echo "radare2 Cutter GUI -------------> rCutter"
-echo "pycharm IDE --------------------> pycharm"
-echo "ScanaStudio --------------------> scana"
-echo "IDA Disassembler ---------------> ida"
+echo "radare2 Cutter GUI --------------------> rCutter"
+echo "pycharm IDE ---------------------------> pycharm"
+echo "ScanaStudio ---------------------------> scana"
+echo "IDA Disassembler ----------------------> ida"
+echo "Linux Exploit Suggester ---------------> les"
 echo "-----------------------------------------------"
 
 
