@@ -32,8 +32,11 @@ sudo pip3 install --upgrade pip
 
 
 mkdir GIT & cd GIT
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 wget http://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run && chmod +x qt-unified-linux-x64-online.run && sudo ./qt-unified-linux-x64-online.run sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 wget https://raw.githubusercontent.com/0x00rick/IOTOS/master/install.py
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
 wget https://download.jetbrains.com/python/pycharm-professional-2018.1.2.tar.gz &&  tar -zxvf pycharm-professional-2018.1.2.tar.gz -C ~/
 git clone https://github.com/fkie-cad/FACT_core.git && sudo cp install.py FACT_core/ && ./FACT_core/install.py
 git clone https://github.com/devttys0/baudrate.git
