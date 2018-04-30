@@ -12,8 +12,8 @@ LIST_OF_APPS="minicom binwalk git python-pip python3-pip python3 python3-dev bui
     git unzip python-dev texinfo make pkg-config wireshark zsh curl wget zlib1g-dev liblzma-dev python-magic tcpdump \
     gdb gdb-multiarch unrar libssl-dev libx32gcc-4.8-dev libc6-dev-i386 binutils-arm-linux-gnueabi vim qt4-qmake\
     binutils-arm-linux-gnueabi libffi-dev libc6-powerpc-cross libc6-mipsel-cross binutils-powerpc-linux-gnu screen afl libfontconfig1\
-mesa-common-dev libglu1-mesa-dev qt5-default qtwebengine5-dev qtpositioning5-dev libqt5svg5-dev libqt5xmlpatterns5-dev libftdi"
-PYTHON3_MODULES="scapy capstone unicorn ropper retdec-python twitter pandoc"
+mesa-common-dev libglu1-mesa-dev qt5-default qtwebengine5-dev qtpositioning5-dev libqt5svg5-dev libqt5xmlpatterns5-dev libftdi cmake"
+PYTHON3_MODULES="scapy capstone unicorn ropper retdec-python twitter pandoc keystone-engine"
 PYTHON2_MODULES="dpkt-fix capstone unicorn keystone-engine ropper twitter testresources pysimplesoap"
 
 echo "---------------------------------------"
