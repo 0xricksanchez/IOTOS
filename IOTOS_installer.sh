@@ -55,11 +55,11 @@ wget https://cdn.ikalogic.com/dist/scanastudio/package/ScanaStudio.tar.bz2 && ta
 
 
 
-
 sudo dpkg --add-architecture i386
 sudo apt-get update -y
 sudo apt-get upgrade -y
-sudo apt-get install libc6:i386 libc6-dbg:i386 libncurses5:i386 libstdc++6:i386 -y
+sudo apt-get install libc6:i386 libc6-dbg:i386 libncurses5:i386 libstdc++6:i386 libfontconfig1:i386 \
+libsm6:i386 libfreetype6:i386 libglib2.0-0:i386 -y
 
 rm qt-opensource-linux-x64-5.10.1.run ScanaStudio.tar.bz2 pycharm-professional-2018.1.2.tar.gz idafree70_linux.run
 
