@@ -8,7 +8,7 @@ echo "██║╚██████╔╝   ██║██╗╚████�
 echo "╚═╝ ╚═════╝    ╚═╝╚═╝ ╚═════╝ ╚══════╝"
 
 
-LIST_OF_APPS="curl minicom binwalk git python-pip python3-pip python3 python3-dev build-essential automake autoconf libtool \
+LIST_OF_APPS="curl minicom binwalk git python-pip python3-pip python3 python3-dev build-essential automake autoconf libtool libcurl3 \
     git unzip python-dev texinfo make pkg-config wireshark zsh curl wget zlib1g-dev liblzma-dev python-magic tcpdump \
     gdb gdb-multiarch unrar libssl-dev libx32gcc-4.8-dev libc6-dev-i386 binutils-arm-linux-gnueabi vim qt4-qmake\
     binutils-arm-linux-gnueabi libffi-dev libc6-powerpc-cross libc6-mipsel-cross binutils-powerpc-linux-gnu screen afl libfontconfig1 \
