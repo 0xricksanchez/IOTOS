@@ -24,6 +24,8 @@ The following tools are getting installed along the way:
 * [Scapy](https://scapy.net/)  
 * [binwalk](https://github.com/ReFirmLabs/binwalk)  
 * [ScanaStudio](https://cdn.ikalogic.com/dist/scanastudio/)
+* [RouterSploit](https://github.com/threat9/routersploit)
+* and more!
 
 This list is variable and might change in the future! 
 
