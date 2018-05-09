@@ -44,7 +44,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 sudo chsh -s $(which zsh)
 sudo apt-get install ttf-ancient-fonts fonts-powerline -y
 wget http://raw.github.com/caiogondim/bullet-train-oh-my-zsh-theme/master/bullet-train.zsh-theme && mv bullet-train.zsh-theme ~/.oh-my-zsh/themes/
-wget https://raw.githubusercontent.com/0x00rick/IOTOS/master/.zshrc && mv ~/
 
 wget http://download.qt.io/official_releases/online_installers/qt-unified-linux-x64-online.run && chmod +x qt-unified-linux-x64-online.run && sudo ./qt-unified-linux-x64-online.run sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 # wget https://raw.githubusercontent.com/0x00rick/IOTOS/master/install.py
