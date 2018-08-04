@@ -1,4 +1,6 @@
 # IOTOS
+[Experimental!]
+
 This install script is aimed at quickly setting up a new Debian based OS environment to start with the more fun part of hacking.  
 Initially this script was targeted at setting up the OS for IOT debugging & exploitation, but with that some reverse engineering and fuzzing capabilities joined the ranks of the original programs.  
 
